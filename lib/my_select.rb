@@ -3,7 +3,7 @@ def my_select(array)
  outputArr = []
  i = 0 
  while i < array.length 
-    #yield array[i]
+    yield array[i]
     if yield array[i] == true
       outputArr.push(yield array[i])
     end 
